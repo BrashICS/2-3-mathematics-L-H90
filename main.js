@@ -19,3 +19,17 @@ console.log(`I generated the number ${random_number}`)
 
 // ***  Your code goes below  ***
 
+
+
+let celsius = 100
+celsius =  celsius + 2
+let fahrenheit = 0
+fahrenheit = (celsius * 9/5) + 32
+console.log(fahrenheit)
+
+fahrenheit = 77
+celsius = (fahrenheit - 32) * 5/9
+console.log (celsius)
+
+console.log(`${fahrenheit} degrees Fahreinheit is ${celsius} degrees celsius.`)
+
